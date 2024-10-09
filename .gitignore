@@ -1,13 +1,5 @@
-# Terraform files
+.terraform.lock.hcl
+.terraform
+.gitignore
 *.tfstate
-*.tfstate.backup
-*.tfstate.lock
-.terraform/
-*.tfvars
-*.pem
-*.key
-
-# Ignore any temporary or auto-generated files
-*.tmp
-*.log
-*.bin
+terraform.tfstate.backup
